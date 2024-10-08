@@ -1,5 +1,25 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-konsorten-go-windows-terminal-sequences (1.0.2-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+  * Apply multi-arch hints.
+    + golang-github-konsorten-go-windows-terminal-sequences-dev: Add Multi-Arch:
+      foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 04 Feb 2021 17:48:18 +0000
+
+golang-github-konsorten-go-windows-terminal-sequences (1.0.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upgrade to debhelper 12
+  * Bump Standards-Version to 4.4.1 (no changes required)
+
+ -- Benjamin Drung <benjamin.drung@cloud.ionos.com>  Mon, 06 Jan 2020 11:37:25 +0100
+
+golang-github-konsorten-go-windows-terminal-sequences (1.0.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #927416)
+
+ -- Michael Meskes <meskes@debian.org>  Mon, 01 Apr 2019 11:15:57 +0200
